@@ -1,0 +1,32 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    padding: 14px 0;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.bgimage{
+    background-image: url('images/backgroundheader.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #a288a6e7;
+    background-blend-mode: multiply;
+}
+
+@media (min-width: 768px) {
+    .bgimage {
+        background-image: none;
+        background-color: white;
+    }
+}
